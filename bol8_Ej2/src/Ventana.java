@@ -39,6 +39,7 @@ public class Ventana extends JFrame implements ActionListener {
 		this.setLayout(null);
 		this.setSize(170, 350);
 
+		
 		display = new JTextField();
 		display.setSize(150, 25);
 		display.setLocation(10, 10);
