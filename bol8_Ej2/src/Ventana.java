@@ -234,6 +234,7 @@ public class Ventana extends JFrame implements ActionListener {
 			case '#':
 				teclado[11].doClick();
 				break;
+				
 			}
 		}
 	}
