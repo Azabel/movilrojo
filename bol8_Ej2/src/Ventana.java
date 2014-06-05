@@ -67,7 +67,7 @@ public class Ventana extends JFrame implements ActionListener {
 			this.add(teclado[i]);
 		}
 
-		reset = new JButton("Reset");
+		/*reset = new JButton("Reset");
 		reset.setSize(100, 50);
 		reset.setLocation(35, 250);
 		reset.addActionListener(new ActionListener() {
@@ -81,7 +81,7 @@ public class Ventana extends JFrame implements ActionListener {
 			}
 		});
 		this.add(reset);
-
+	*/
 		grabarItem = new JMenuItem("Grabar numero");
 		grabarItem.setMnemonic('g');
 		grabarItem.addActionListener(this);
