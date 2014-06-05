@@ -113,6 +113,7 @@ public class Ventana extends JFrame implements ActionListener {
 		this.setJMenuBar(menuPrincipal);
 
 		this.setFocusable(true);
+	
 		this.addKeyListener(new EventosTeclado());
 		this.setResizable(false);
 		this.setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
